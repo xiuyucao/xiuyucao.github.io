@@ -8,8 +8,8 @@ main:
   - title: "CV"
     url: /files/CV.pdf
     
-#  - title: "Portfolio"
-#    url: /portfolio/
+- title: "Projects"
+   url: /_pages/prjects.html
     
 #  - title: "CV"
 #    url: /cv/

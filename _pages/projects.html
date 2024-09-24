@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Xiuyu's Website</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0px;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(75, 75, 75);
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.933);
+            font-size: 48px;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+
+        a {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            vertical-align: top;
+        }
+
+        img {
+            max-width: 100%;
+            height: 400;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            position: relative;
+        }
+
+        p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 16px;
+            color: #f0f0f0;
+            opacity: 0;
+            background: rgba(0, 0, 0, 0.75);
+            padding: 10px;
+            border-radius: 8px;
+            transition: opacity 0.3s ease;
+        }
+
+        a:hover p {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            a {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>Hello!<br><span style="font-size: 36px;">Welcome to my project page</span></header>
+    
+    <a href='https://xiuyucao.github.io/EAS648-assignments/'>
+        <img src='../images/proj-geovisual.jpg' alt='Lab 1'>
+        <p>EAS648<br>Advanced Geovisualization</p>
+    </a>
+
+</body>
+
+</html>
