@@ -6,10 +6,10 @@
 
 main:
   - title: "CV"
-    url: /files/CV.pdf
+    url: https://docs.google.com/document/d/1gufUwLCrGSfhW3fzPrPR1T-hyf8v4C0amOhgGMsDBpU/edit?usp=sharing
     
-  - title: "Projects"
-    url: /projects/
+ # - title: "Projects"
+ #   url: /projects/
     
 #  - title: "CV"
 #    url: /cv/
